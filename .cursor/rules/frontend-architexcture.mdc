@@ -8,4 +8,5 @@ alwaysApply: true
 - Javascriptのフレームワークは、React19を利用する。
 - CSSフレームワークは、MUIの無料版を利用する。
 - backendとの通信は、axiosを利用する。
+- 単体テストは、Jest29.7を利用する。
 - 
