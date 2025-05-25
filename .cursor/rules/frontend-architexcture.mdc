@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+## フロントエンドのアーキテクチャのルールを記載
+- typescript5.8.3を利用する。
+- Javascriptのフレームワークは、React19を利用する。
+- CSSフレームワークは、MUIの無料版を利用する。
+- backendとの通信は、axiosを利用する。
+- 
