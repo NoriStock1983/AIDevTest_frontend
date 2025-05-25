@@ -1,9 +1,9 @@
 name: IT Audit Compliance Workflow
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main, develop, release ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, develop, release ]
   schedule:
     # 毎日午前2時に定期実行
     - cron: '0 2 * * *'
