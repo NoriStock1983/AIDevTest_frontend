@@ -163,7 +163,7 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
-          languages: javascript, python, java, csharp, cpp, go
+          languages: javascript, python, java, csharp, cpp, go, typescript
       
       - name: Autobuild
         uses: github/codeql-action/autobuild@v3
